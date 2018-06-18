@@ -406,4 +406,10 @@ Now we have successfully implemented object recognition functionality and deploy
 
 ## Additional tutorials
 
-As a next step, we very much encourage you to go thru additional tutorial stated in official documentation for IoT Edge. In these  deploy Azure Stream Analytics job and Azure Function to IoT Edge simulated devices. Azure Stream Analytics is service, which let's you process stream of data using SQL Like queries supporting time windowing (e.g. easily calculate average value for messages within 30 minutes window)  Azure functions deployed can react to specific event that and implement custom processing logic. 
+As a next step, we very much encourage you to go thru additional tutorials stated in official documentation for IoT Edge. In these  deploy [Azure Stream Analytics job](https://docs.microsoft.com/en-us/azure/iot-edge/tutorial-deploy-stream-analytics) and [Azure Function](https://docs.microsoft.com/en-us/azure/iot-edge/tutorial-deploy-function) to IoT Edge simulated devices. 
+
+Azure Stream Analytics is service, which let's you process stream of data using SQL Like queries supporting time windowing (e.g. easily calculate average value for messages within 30 minutes window) now deployable also to IoT Edge.  
+
+Azure Functions module deployed to IoT Edge enable you to easily implement logic which needs to be executed as a reaction to specific event on the edge devices.
+
+Please find more information on the [official documentation page](https://docs.microsoft.com/en-us/azure/iot-edge/how-iot-edge-works).
