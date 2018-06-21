@@ -33,7 +33,7 @@ namespace SimulatedCameraDevice
                     Console.WriteLine("Please write number of image you want to send from 1-3?");
                     var number = Console.ReadLine();
                    //Send penguin picture     
-                  content = File.ReadAllBytes($"Pictures\\penguin{number}.jpg");
+                   content = File.ReadAllBytes($"Pictures\\penguin{number}.jpg");
                 }
                 else
                 {
